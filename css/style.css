@@ -2,3 +2,66 @@
     width: 100px;
     height: 100px;
 }
+ /* GLOBAL */
+html {
+    max-width: 1400px;
+}
+
+
+/* HEADER */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 61px;
+   
+}
+
+nav div a {
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+#header_title h1,p {
+    line-height: 50%;
+    
+}
+
+#header_title h1 {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+#header_title p {
+    font-size: 14px;
+    margin-left: 4.1px;
+    
+}
+
+#search_bar {
+    width: 250px;
+    height: 30px;
+    border:1px solid #F2F2F2; 
+   font-size: 13px;
+   position: relative;
+}
+
+#search_button {
+    color: white;
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+    height: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    top: 0px;
+    right: 30px;
+
+}
