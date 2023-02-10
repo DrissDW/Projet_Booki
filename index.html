@@ -9,6 +9,8 @@
     <title>Page d'acceuil Booki</title>
 </head>
 
+
+
 <body>
 
     <header>
@@ -19,45 +21,66 @@
 
                 <img src="/images/logo/Booki.png" alt="Logo-booki">
             </div>
-              <div>
+            <div>
 
-                  <a href="">Hébergements</a>
-                  <a href="">Activités</a>
-                </div>
+                <a href="#hebergement">Hébergements</a>
+                <a href="#activity">Activités</a>
+            </div>
 
 
         </nav>
-        
+
         <div id="header_title">
 
             <h1>Trouver votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
-        
+
         <div id="search">
             <form action="#" method="post">
 
-                <i></i>
+                <i class="fas fa-map-marker-alt"></i>
+
                 <input id="search_bar" value="Marseille,France" type="text">
-                <input id="search_button"  type="submit" value="Rechercher">
+                <input id="search_button" type="submit" value="Rechercher">
+                
 
             </form>
         </div>
 
-        <div>
+        <div id="filtered">
+
+
+
             <p>Filtres</p>
 
-            <a href="#">Economique</a>
+            <div id="a_money">
+                <i class="fa fa-money-bill-wave"></i>
+                <a href="#">Economique</a>
+            </div>
 
-            <a href="#">Familiale</a>
+            <div id="a_familly">
+                <i class="fa fa-solid fa-person"></i>
+                <a href="#">Familliale</a>
+            </div>
 
-            <a href="#">Romantique</a>
 
-            <a href="#">Animaux autorisés</a>
+            <div id="a_romantic">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+                <a href="#">Romantique</a>
+            </div>
+
+            <div id="a_animal">
+
+                <i class="fa-solid fa-dog"></i>
+                <a href="#">Animaux autorisés</a>
+            </div>
+
         </div>
 
-        <div>
-            <i></i>
+        <div id="header_counter">
+
+           <i class="fa-sharp fa-solid fa-info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
 
@@ -189,7 +212,7 @@
 
     </section>
 
-    <section id="activites">
+    <section id="activity">
 
         <div>
 
@@ -257,7 +280,7 @@
         </div>
 
         <h4>Nos hébergements</h4>
-         
+
         <ul>
             <li>
                 <a href="#">Charte qualité</a>
@@ -267,12 +290,12 @@
                 <a href="#">Proposer votre hôtel</a>
             </li>
 
-            
+
         </ul>
 
 
 
-        
+
 
         <div>
             <h4>Assistance</h4>
@@ -286,13 +309,13 @@
                     <a href="#">Nous contacter</a>
                 </li>
 
-               
+
             </ul>
 
 
         </div>
 
-       
+
 
 
 
@@ -304,7 +327,7 @@
 
 
 
-
+    <script src="https://kit.fontawesome.com/04d9e13e82.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
