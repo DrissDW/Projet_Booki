@@ -441,12 +441,6 @@ i {
     
 }
     
-
-
-    
-
-    
-
 #famous .card-2 p {
     padding-left: 16.5px;
     color: black;
@@ -462,4 +456,107 @@ i {
     font-size: 12px;
 }
 
+/* ACTIVITY */
 
+#activity {
+   
+    
+    margin-top: 80px;
+    border-radius: 20px;
+    /* background-color: #F2F2F2; */
+    height: 480px;
+    margin-right: 20px;
+    
+
+
+}
+
+#activity h2 {
+    padding-bottom: 10px;
+    padding-left: 2px;
+    
+}
+
+.card-3 {
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: white;
+    width: 300px;
+    height: 412px;
+    box-shadow: 2px 3px 10px rgb(192, 192, 192);
+    
+
+   
+}
+
+.card-3 img {
+    width: 300px;
+    height: 365px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-3 a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.card-3 a h3 {
+    padding-top: 0px;
+    font-size: 14px;
+    
+}
+
+#container-card-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 60px; 
+    display: flex;
+    justify-content: space-between;
+    line-height: 190%;
+    background-color: #F2F2F2;
+    max-width: 100%;
+    margin-right: 18px;
+    height: 222px;
+}
+
+footer h4 {
+ padding-left:38.5px ;
+ padding-top: 20px;
+ margin-bottom: 0px;
+ position: relative;
+ top: 10px;
+}
+
+footer div {
+    padding-right: 260px;
+    
+    
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+#container-hebergement {
+    position: relative;
+    top: 0;
+    right: 55px;
+}
+
+#container-assistance {
+    position: relative;
+    top: 0;
+    right: 85px;
+}
