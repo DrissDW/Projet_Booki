@@ -58,8 +58,7 @@ nav a:link {
 }
 
 
-#header_title h1,
-p {
+#header_title h1, p {
     line-height: 75%;
 
 }
@@ -324,7 +323,7 @@ header form {
     margin: 7px;
 }
 /* --------------------------------- */
-/* CARD EFFECTS ZOOM */
+/* CARD EFFECTS ZOOM (option) */
 
 .card:hover {
     transform: scale(1.1);
