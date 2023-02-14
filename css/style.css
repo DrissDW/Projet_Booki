@@ -26,11 +26,13 @@ html {
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 30px;
+    padding-top: 20px;
 }
 
 nav img {
     width: 61px;
+    
 
 }
 
@@ -38,7 +40,7 @@ nav div a {
     padding-right: 20px;
     padding-left: 20px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 nav a:visited {
@@ -48,7 +50,7 @@ nav a:visited {
 nav a:hover {
     color: #0065FC;
     border-top: 5px solid #0065FC;
-    padding-top: 25px;
+    padding-top: 47px;
 }
 
 nav a:link {
@@ -63,12 +65,12 @@ p {
 }
 
 #header_title h1 {
-    font-size: 21px;
+    font-size: 22px;
     padding-top: 30px;
 }
 
 #header_title p {
-    font-size: 13px;
+    font-size: 16px;
     margin-left: 4.1px;
 
 }
@@ -80,9 +82,9 @@ header form {
 
 #search_bar {
     width: 200px;
-    height: 35px;
+    height: 45.5px;
     border: 1px solid #F2F2F2;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: bold;
     position: relative;
     top: 0px;
@@ -95,8 +97,8 @@ header form {
     color: white;
     background-color: #0065FC;
     border: 1px solid #0065FC;
-    height: 39px;
-    font-weight: bold;
+    height: 49px;
+    font-weight: 550;
     padding-left: 15px;
     padding-right: 15px;
     border-top-right-radius: 12px;
@@ -104,6 +106,7 @@ header form {
     position: relative;
     top: 0px;
     right: 30px;
+    font-size: 16px;
 
 }
 
@@ -111,40 +114,43 @@ header form {
 
     border: 0px solid #F2F2F2;
     background-color: #F2F2F2;
-    height: 23.8px;
+    height: 32px;
     width: 30px;
     padding-left: 15px;
     padding-right: 5px;
-    padding-top: 10.2px;
-    padding-bottom: 4px;
+    padding-top: 16.5px;
+    padding-bottom: 0px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-    font-size: 16px;
+    font-size: 17px;
     position: relative;
+    top: 1.2px;
 
 }
+
+
 
 #filtered {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    max-width: 910px;
+    max-width: 930px;
     padding-top: 30px;
     font-size: 14px;
 
 
 }
 
-#filtered a,
-p {
+#filtered a, p {
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
 }
 
 
 #filtered a {
-    border: 2px solid #D9D9D9;
-    border-radius: 19px;
+    border: 3px solid #D9D9D9;
+    border-radius: 22px;
     padding: 10px 20px 10px 40px;
 
 }
@@ -206,13 +212,13 @@ p {
     padding-left: 8px;
     padding-top: 3.5px;
     padding-bottom: 6px;
-    font-size: 10px;
+    font-size: 11px;
     border: 1px solid #DEEBFF;
     border-radius: 45px;
 }
 
 #header_counter p {
-    font-size: 13px;
+    font-size: 16px;
     padding-left: 7px;
 }
 
@@ -221,15 +227,15 @@ p {
 #hebergement {
     /* border: 2px solid black; */
     display: flex;
-    
+    height: 626px;
     width: 100%;
     border-radius: 12px;
     
 }
 
 #hebergement h2 {
-    font-size: 21px;
-    padding-left: 37.5px;
+    font-size: 22px;
+    padding-left: 28px;
     padding-top: 20px;
     
 }
@@ -241,9 +247,9 @@ p {
 }
 
 #room #end_title {
-    padding-top: 30px;
-    padding-left: 40px;
-    font-size: 15px;
+    padding-top: 38px;
+    padding-left: 28px;
+    font-size: 18px;
     font-weight: bold;
 
 }
@@ -252,9 +258,9 @@ p {
 #room {
     background-color: #F2F2F2;
     /* border: 1px solid red; */
-    border-radius: 20px;
+    border-radius: 22px;
     width: 880px;
-    height: 586px;
+    height: 626px;
     padding-left: auto;
     padding-right: auto;
 
@@ -265,9 +271,9 @@ p {
     /* border: 5px solid green; */
     margin-left: 40px;
     background-color: #F2F2F2;
-    border-radius: 12px;
+    border-radius: 22px;
     width: 445px;
-    height: 586px;
+    height: 626px;
 }
 
 #famous_title {
@@ -277,7 +283,7 @@ p {
 }
 
 #famous_title i {
-    padding-right: 75px;
+    padding-right: 45px;
     color: #0065FC;
     font-size: 25px;
 }
@@ -311,7 +317,7 @@ p {
 
 .card img {
    
-    width: 212px;
+    width: 238px;
     height: 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -330,23 +336,24 @@ p {
     background-color: white;
     border-radius: 20px;
     margin-right: 15px;
-    width: 225px;
-    height: 185px;
+    width: 250px;
+    height: 200px;
     box-shadow: 2px 3px 10px rgb(192, 192, 192);
+    
     
 
 
 }
 
 .card h3 {
-    font-size: 14px;
+    font-size: 18px;
     
     
     
 }
 
 .card p {
-    font-size: 10px;
+    font-size: 14px;
     
 }
 
@@ -386,7 +393,8 @@ i {
 
 .card-2 {
     
-   padding-top: 20px;
+   padding-top: 15px;
+   padding-bottom: 11px;
     margin-left: 50px;
     margin-right: 40px;
     
@@ -400,13 +408,13 @@ i {
 }
 
  #famous h2 {
-
+    font-size: 22px;
     padding-left: 50px;
 
 }
 .card-2 img {
-    width: 115px;
-    height: 122px;
+    width: 125px;
+    height: 133px;
     padding: 7px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -416,8 +424,8 @@ i {
     display: flex;
     border-radius: 20px;
     background-color: white;
-    width: 320px;
-    height: 137px;
+    width: 355px;
+    height: 147px;
     box-shadow:2px 3px 10px rgb(192 192 192) ;
     text-decoration: none;
     
@@ -435,20 +443,25 @@ i {
     
 }
 
+#pos-star-soleil{
+    position: relative;
+    top: -25px;
+}
+
 #pos-star-coeur i{
     position: relative;
-    top: 7.5px;
+    top: 4px;
     
 }
     
 #famous .card-2 p {
-    padding-left: 16.5px;
+    padding-left: 18px;
     color: black;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #famous .card-2 h3 {
-    font-size: 14.5px;
+    font-size: 18px;
     line-height: 150%;
 }
 
@@ -461,10 +474,10 @@ i {
 #activity {
    
     
-    margin-top: 80px;
+    margin-top: 60px;
     border-radius: 20px;
     /* background-color: #F2F2F2; */
-    height: 480px;
+    height: 493px;
     margin-right: 20px;
     
 
@@ -474,6 +487,8 @@ i {
 #activity h2 {
     padding-bottom: 10px;
     padding-left: 2px;
+    font-size: 22px;
+    
     
 }
 
@@ -482,7 +497,7 @@ i {
     border-radius: 20px;
     background-color: white;
     width: 300px;
-    height: 412px;
+    height: 436px;
     box-shadow: 2px 3px 10px rgb(192, 192, 192);
     
 
@@ -491,7 +506,7 @@ i {
 
 .card-3 img {
     width: 300px;
-    height: 365px;
+    height: 375px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -502,8 +517,8 @@ i {
 }
 
 .card-3 a h3 {
-    padding-top: 0px;
-    font-size: 14px;
+    padding-top: 6px;
+    font-size: 18px;
     
 }
 
@@ -527,10 +542,10 @@ footer {
 
 footer h4 {
  padding-left:38.5px ;
- padding-top: 20px;
  margin-bottom: 0px;
  position: relative;
  top: 10px;
+ font-size: 18px;
 }
 
 footer div {
@@ -547,6 +562,7 @@ footer a {
 
 footer ul li {
     list-style-type: none;
+    font-size: 16px;
 }
 
 #container-hebergement {
