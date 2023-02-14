@@ -323,6 +323,22 @@ header form {
     border-top-right-radius: 20px;
     margin: 7px;
 }
+/* --------------------------------- */
+/* CARD EFFECTS ZOOM */
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-2:hover {
+    transform: scale(1.1);
+}
+
+.card-3:hover {
+    transform: scale(1.1);
+}
+/* ------------------------------ */
+
 
  .card .card_text {
     position: relative;
