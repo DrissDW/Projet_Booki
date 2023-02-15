@@ -12,6 +12,7 @@ html {
 
  html img {
     image-rendering: pixelated;
+    
   }
   
 
@@ -322,7 +323,7 @@ header form {
 .card img {
    
     width: 238px;
-    height: 100px;
+    height: 110px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin: 7px;
@@ -359,7 +360,7 @@ header form {
     width: 250px;
     height: 200px;
     box-shadow: 2px 3px 10px rgb(192, 192, 192);
-    
+    overflow: hidden;
     
 
 
@@ -433,7 +434,7 @@ i {
 
 }
 .card-2 img {
-    width: 125px;
+    width: 135px;
     height: 133px;
     padding: 7px;
     border-top-left-radius: 20px;
@@ -519,16 +520,18 @@ i {
     width: 300px;
     height: 436px;
     box-shadow: 2px 3px 10px rgb(192, 192, 192);
+    overflow: hidden;
     
 
    
 }
 
 .card-3 img {
-    width: 300px;
+    width: 345px;
     height: 375px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    overflow: hidden;
 }
 
 .card-3 a {
@@ -596,3 +599,42 @@ footer ul li {
     top: 0;
     right: 85px;
 }
+
+
+/* REGLAGE ZOOM IMAGE */
+
+#amina {
+    overflow: hidden;
+    margin: 6px 4px 30px 6px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    width: 238px;
+    height: 110px;
+    
+  }
+  
+  .amina-img {
+    width: 208px!important;
+    height: 250px!important;
+    transform: scale(1.2);
+    object-position:7px -60px; 
+    
+  }
+
+  #hotel-mer {
+    overflow: hidden;
+    margin: 6px 4px 30px 6px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    width: 238px;
+    height: 110px;
+  }
+
+  .hotel-mer-img {
+      width: 100%;
+      height: 210px!important;
+      transform: scale(1.1);
+      object-position:-3px -53px ;
+    }
+
+
