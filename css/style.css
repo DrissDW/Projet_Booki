@@ -10,6 +10,11 @@ html {
     font-family: 'Raleway', sans-serif;
 }
 
+ html img {
+    image-rendering: pixelated;
+  }
+  
+
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
