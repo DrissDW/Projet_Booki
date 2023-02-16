@@ -292,7 +292,7 @@ p {
 #famous_title i {
     padding-right: 45px;
     color: #0065FC;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* BLOCK 1 */
@@ -716,7 +716,9 @@ footer ul li {
     object-fit: cover;
 }
 
-  
+  /* Pour la section activity */
+
+
   
     
 
