@@ -605,8 +605,11 @@ footer ul li {
     right: 85px;
 }
 
-
+/* --------------------------------- */
 /* REGLAGE ZOOM IMAGE */
+/* --------------------------------- */
+
+/* Pour l'artcile "room" de la section "hebergement" */
 
 .zoom-card {
     overflow: hidden;
@@ -619,41 +622,45 @@ footer ul li {
 }
 
 .cannebiere-img {
-    width: 240px!important;
-    height: 145px!important;
-    transform: scale(1.1);
-    object-position: -12px -21px;
-    
+    width: 230px !important;
+    height: 115px !important;
+    transform: scale(1.08);
+    object-position: -12px -24px;
+    object-fit: cover;
 }
 
 .port-img {
-    width: 230px!important;
-    height: 138px!important;
+    width: 238px !important;
+    height: 125px !important;
     transform: scale(1.1);
-    object-position: -3px -18px;
+    object-position: -10px -31.2px;
+    object-fit: cover;
 
 }
 
 .mouette-img {
-    width: 235px!important;
-    height: 145px!important;
+    width: 100% !important;
+    height: 125px !important;
     transform: scale(1.1);
-    object-position: -2px -27px;
+    object-position: -5px -35px;
+    object-fit: cover;
 }
 
 
 .hotel-mer-img {
-    width: 100%;
+    width: 220px!important;
     height: 210px !important;
     transform: scale(1.1);
-    object-position: -3px -53px;
+    object-position: -7px -53px;
+    object-fit: cover;
 }
 
 .panier-img {
-    width: 220px!important;
-    height: 120px!important;
+    width: 220px !important;
+    height: 120px !important;
     transform: scale(1.1);
-    object-position: 3.5px -11.5px;
+    object-position: 5px -11.5px;
+    object-fit: cover;
 }
 
 
@@ -661,6 +668,40 @@ footer ul li {
     width: 208px !important;
     height: 250px !important;
     transform: scale(1.2);
-    object-position: 7px -60px;
+    object-position: 5px -97px;
+    object-fit: cover;
 
 }
+
+/* Pour l'article "famous" de la section "hebergement" */
+
+.zoom-card-2 {
+    overflow: hidden;
+    border: 3px solid red;
+    width: 139px;
+    height: 133px;
+    max-width: 100%;
+    margin: 7px 7px 7px 7px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.soleil-img {
+    width: 175px!important;
+    height: 130px!important;
+    transform: scale(1.2);
+    object-position:-22.5px -4px ;
+    /* object-fit: cover; */
+
+}
+
+#coeur-img {
+    
+    width: 139px!important;
+    height: 133px;
+   object-fit: cover;
+   transform: scale(1.2);
+    
+}
+
