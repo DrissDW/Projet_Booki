@@ -38,6 +38,7 @@ nav {
 
 nav img {
     width: 61px;
+    max-width: 100%;
 
 
 }
@@ -88,6 +89,7 @@ header form {
 
 #search_bar {
     width: 200px;
+    max-width: 100%;
     height: 45.5px;
     border: 1px solid #F2F2F2;
     font-size: 18px;
@@ -122,6 +124,7 @@ header form {
     background-color: #F2F2F2;
     height: 32px;
     width: 30px;
+    max-width: 100%;
     padding-left: 15px;
     padding-right: 5px;
     padding-top: 16.5px;
@@ -140,7 +143,8 @@ header form {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    max-width: 930px;
+    width: 930px;
+    max-width: 100%;
     padding-top: 30px;
     font-size: 14px;
 
@@ -159,6 +163,7 @@ p {
     border: 3px solid #D9D9D9;
     border-radius: 22px;
     padding: 10px 20px 10px 40px;
+    
 
 }
 
@@ -235,7 +240,8 @@ p {
     /* border: 2px solid black; */
     display: flex;
     height: 626px;
-    width: 100%;
+    width: 1365px;
+    max-width: 100%;
     border-radius: 12px;
 
 }
@@ -267,6 +273,7 @@ p {
     /* border: 1px solid red; */
     border-radius: 22px;
     width: 880px;
+    max-width: 100%;
     height: 626px;
     padding-left: auto;
     padding-right: auto;
@@ -280,6 +287,7 @@ p {
     background-color: #F2F2F2;
     border-radius: 22px;
     width: 445px;
+    max-width: 100%;
     height: 626px;
 }
 
@@ -325,6 +333,7 @@ p {
 .card img {
 
     width: 238px;
+    max-width: 100%;
     height: 110px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -362,6 +371,7 @@ p {
     border-radius: 20px;
     margin-right: 15px;
     width: 250px;
+    max-width: 100%;
     height: 200px;
     box-shadow: 2px 3px 10px rgb(192, 192, 192);
     overflow: hidden;
@@ -441,6 +451,7 @@ i {
 
 .card-2 img {
     width: 135px;
+    max-width: 100%;
     height: 133px;
     padding: 7px;
     border-top-left-radius: 20px;
@@ -453,6 +464,7 @@ i {
     border-radius: 20px;
     background-color: white;
     width: 375px;
+    max-width: 100%;
     height: 147px;
     box-shadow: 2px 3px 10px rgb(192 192 192);
     text-decoration: none;
@@ -507,6 +519,8 @@ i {
     margin-top: 60px;
     border-radius: 20px;
     /* background-color: #F2F2F2; */
+    width: 1365px;
+    max-width: 100%;
     height: 493px;
     margin-right: 20px;
 
@@ -526,7 +540,8 @@ i {
     /* border: 1px solid black; */
     border-radius: 20px;
     background-color: white;
-    width: 300px;
+    width: 305px;
+    max-width: 100%;
     height: 436px;
     box-shadow: 2px 3px 10px rgb(192, 192, 192);
     overflow: hidden;
@@ -537,6 +552,7 @@ i {
 
 .card-3 img {
     width: 345px;
+    max-width: 100%;
     height: 375px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -567,7 +583,7 @@ footer {
     justify-content: space-between;
     line-height: 190%;
     background-color: #F2F2F2;
-    max-width: 100%;
+    max-width: 1365px;
     margin-right: 18px;
     height: 222px;
 }
@@ -621,6 +637,7 @@ footer ul li {
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
     width: 238px;
+    max-width: 100%;
     height: 110px;
 
 }
@@ -683,6 +700,7 @@ footer ul li {
     overflow: hidden;
     /* border: 3px solid red; */
     width: 139px;
+    max-width: 100%;
     height: 133px;
     margin: 7px 7px 7px 7px;
     border-top-left-radius: 20px;
@@ -720,6 +738,7 @@ footer ul li {
 
   .zoom-card-3 {
     width: 345px;
+    max-width: 100%;
     height: 375px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -770,13 +789,169 @@ footer ul li {
 
 @media screen and (max-width : 991px) and (min-width : 768px ) {
 
-}
+    nav {
+         /* border: 2px solid red; */
+    }
+
+    nav div a {
+        /* border: 2px solid black;; */
+        font-size: 14px;
+        
+    }
+
+    #header_title h1{
+        font-size: 18px;
+    }
+
+    #header_title p{
+        font-size: 14px;
+    }
+
+    #filtered a, p {
+        font-size: 12.5px;
+    }
+
+    #header_counter p {
+        font-size: 14px;
+    }
+
+    #hebergement {
+        display: flex;
+         flex-direction: column;
+    }
+
+    #hebergement h2 {
+        font-size: 18px;
+    }
+
+    .card h3 {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .card i {
+        font-size: 10px;
+    }
+
+    .card {
+        width: 295px!important;
+        height: 180px;
+        /* border :2px solid red; */
+        padding-right:12px ;
+    }
+    .card img {
+        width: 220px!important;
+       
+        
+    }
+
+    .card .card_text {
+        position: relative;
+        top: -20px;
+    }
+
+    #room #end_title{
+        /* border: 2px solid blue; */
+     padding-top: 30px;
+     padding-bottom: 30px;
+    }
+
+    #end_title a {
+        font-size: 16px;
+    }
+
+    #room {
+        margin-bottom: 40px;
+    }
+
+   
+    
+
+    #famous {
+        display: flex;
+        flex-wrap: wrap;
+        width: 880px;
+        margin-left: 0px;
+        
+        
+    }
+
+    #famous_title  {
+        /* border: 2px solid green; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+
+    #famous_block  {
+        border: 2px solid orangered;
+        width: 100%;
+        display: flex;
+
+    }
+
+    #famous_block .card-2  {
+        border: 2px solid blue;
+        width: 205px;
+        margin: 10px;
+        overflow: hidden;
+    }
+    
+    #famous .card-2 h3 {
+        font-size: 10px;
+        padding: 0px;
+
+    }
+    
+    #famous .card-2 p {
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    #famous .card-2 img {
+        padding-right: 0px!important;
+        width: 80px!important;
+        
+
+      
+        
+
+        
+
+    }
+
+    #famous .card-2 i {
+        font-size: 10px!important;
+    }
+   
+   
+
+    /* temporaire */
+    #activity h2{ margin-top: 300px;
+    }
+    
+
+    
+
+   
+
+   
+        
+        
+    
+
+    
 
 
 /* MOBILE */
 
 @media screen and (max-width : 767px) {
-    
+
 }
   
     
