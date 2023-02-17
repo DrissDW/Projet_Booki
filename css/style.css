@@ -761,9 +761,23 @@ footer ul li {
 
   }
 
+  /* ----------------------------------------------- 
+                RESPONSIVE 
+  --------------------------------------------------*/
   
 
+/* TABLETTE */
 
+@media screen and (max-width : 991px) and (min-width : 768px ) {
+
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width : 767px) {
+    
+}
   
     
 
