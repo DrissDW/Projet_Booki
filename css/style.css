@@ -10,6 +10,10 @@ html {
   font-family: "Raleway", sans-serif;
 }
 
+#loupe { 
+    display: none;
+}
+
 /* html img {
     image-rendering: pixelated;
     
@@ -106,7 +110,7 @@ header form {
   font-size: 16px;
 }
 
-#search i {
+#search #repere {
   border: 0px solid #f2f2f2;
   background-color: #f2f2f2;
   height: 32px;
@@ -1088,4 +1092,112 @@ footer ul li {
 /* MOBILE */
 
 @media screen and (max-width: 767px) {
+
+    /* HEADER */
+  header {
+    border: 2px solid blue;
+    width: 100% !important;
+    /* overflow: hidden; */
+  }
+   
+  /* NAV */
+  nav {
+    /* border: 2px solid red; */
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  nav img {
+    width: 63px;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 141px;
+    margin-bottom: 40px;
+  }
+
+  #nav_select {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    /* padding-left: 10px; */
+    /* padding-right: 48px; */
+  }
+
+  #nav_select {
+    font-size: 14px;
+    border-bottom: 4px solid #f2f2f2;
+    padding-bottom: 20px;
+  }
+
+  #hebergement_select a {
+    padding-right: 35px;
+    width: 167px;
+  }
+
+  #activity_select a {
+    /* border: 2px solid blue; */
+    padding-right: 90px;
+    padding-left: 45px;
+    width: 167px;
+  }
+
+  nav a:hover {
+    color: #0065fc;
+    border-top: none;
+    padding-top: none;
+    border-bottom: 4px solid #0065fc;
+    padding-bottom: 20px;
+  }
+
+  #header_title h1{
+    font-size: 20px;
+    text-align: center;
+    line-height: 130%;
+  }
+
+  #header_title p{
+    text-align: center;
+    font-size: 14PX;
+  }
+  
+  form {
+    width: 100%;
+    /* border: 3PX SOLID BLACK; */
+    display: flex;
+    padding-left: 30px;
+   /* padding-right: 25px; */
+  }
+
+  #search_bar {
+    width: 180px;
+    position: relative;
+    right: -0px;
+    font-size: 16px;
+  }
+
+  #search_button {
+    width: 30px;
+    font-size: 14px;
+    display:none
+    
+  }
+
+  #loupe {
+    /* border: 2px solid black; */
+    display: block;
+    background-color: #0065fc!important;
+    color: white;
+    position: relative;
+    top: 0px;
+    right: 9px;
+    font-size: 20px!important;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-bottom: 0px;
+    
+    
+  }
 }
