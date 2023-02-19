@@ -14,9 +14,13 @@
         <div>
           <img src="/images/logo/Booki.png" alt="Logo-booki" />
         </div>
-        <div>
-          <a href="#hebergement">Hébergements</a>
-          <a href="#activity">Activités</a>
+        <div id="nav_select">
+          <div id="hebergement_select">
+            <a href="#hebergement">Hébergements</a>
+          </div>
+          <div id="activity_select">
+            <a href="#activity">Activités</a>
+          </div>
         </div>
       </nav>
 
@@ -27,10 +31,10 @@
 
       <div id="search">
         <form action="#" method="post">
-          <i class="fas fa-map-marker-alt"></i>
+          <i id="repere" class="fas fa-map-marker-alt"></i>
 
           <input id="search_bar" value="Marseille,France" type="text" />
-          <input id="search_button" type="submit" value="Rechercher" />
+          <input id="search_button" type="submit" value="Rechercher" /><i id="loupe" class="fa-solid fa-magnifying-glass"></i>
         </form>
       </div>
 
