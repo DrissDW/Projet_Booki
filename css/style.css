@@ -19,6 +19,20 @@ html {
   display: none;
 }
 
+#filtered_bloc_1 {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+}
+
+#filtered_bloc_2 {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+
+
 /* html img {
     image-rendering: pixelated;
     
@@ -139,6 +153,7 @@ header form {
 }
 
 #filtered {
+  
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -1228,4 +1243,115 @@ footer ul li {
     padding-right: 0px;
   }
 
+  #filtered {
+    /* border: 6px solid green; */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #filtered_bloc_1 {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: stretch;
+    align-items: baseline;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+  
+  #filtered_bloc_2 {
+    /* border: solid 2px blue; */
+    display: flex;
+    justify-content: stretch;
+    align-items: baseline;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+  }
+
+  #filtered  p {
+    font-size: 11.8px;
+    
+  }
+
+  #filtered a {
+    font-size: 10.8px;
+  }
+
+  #filtered i {
+    font-size: 18px;
+  }
+
+  #filtered #filtered_tittle p {
+    font-size: 16px;
+    padding-left: 22px;
+  }
+
+  #filtered #a_money a {
+    /* border: 3px solid red; */
+    border-radius: 22px;
+    padding: 15px 34px 15px 28px;
+  }
+
+  #filtered #a_familly a {
+    /* border: 3px solid red; */
+    border-radius: 22px;
+    padding: 15px 56px 15px 30px;
+  }
+
+  #filtered #a_romantic a {
+    /* border: 3px solid red; */
+    border-radius: 22px;
+    padding: 15px 40px 15px 28px;
+  }
+
+  #filtered #a_animal a {
+    /* border: 3px solid red; */
+    border-radius: 22px;
+    position: relative;
+    top: 0;
+    right: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 14px;
+    padding-left: 27px;
+  }
+
+     #a_animal i {
+     
+    position: relative;
+    top: 2px;
+    left: 25px;
+    
+  }
+
+ #a_money i {
+  position: relative;
+  top: 2.5px;
+  left: 31px;
+ }
+
+ #a_familly i {
+  position: relative;
+  top: 2.5px;
+  left: 30px;
+ }
+  
+ #a_romantic i {
+  position: relative;
+  top: 2.9px;
+  left: 30px;
+ }
+
+ 
+  
+ 
+  
+
 }
+
+
+
+
