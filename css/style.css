@@ -1,5 +1,6 @@
 /* TEMPORAIRE */
 
+
 /* GLOBAL */
 html {
   max-width: 1400px;
@@ -41,7 +42,13 @@ nav img {
   max-width: 100%;
 }
 
+#nav_select { 
+  /* border:2px solid blue; */
+  display: flex;
+}
+
 nav div a {
+  
   padding-right: 20px;
   padding-left: 20px;
   text-decoration: none;
