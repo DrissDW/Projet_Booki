@@ -1115,7 +1115,7 @@ footer ul li {
 @media screen and (max-width: 767px) {
   /* HEADER */
   header {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     max-width: 100% !important;
     /* overflow: hidden; */
   }
@@ -1283,7 +1283,7 @@ footer ul li {
 
   #filtered #filtered_tittle p {
     font-size: 16px;
-    padding-left: 22px;
+    padding-left: 26px;
   }
 
   #filtered #a_money a {
@@ -1343,6 +1343,7 @@ footer ul li {
   #header_counter p {
     font-size: 14px;
     line-height: 150%;
+    padding-left: 10px;
   }
 
   #header_counter i {
@@ -1356,7 +1357,7 @@ footer ul li {
   }
 
   #header_counter {
-    padding-left: 20px;
+    padding-left: 12px;
   }
 
   /* SECTION HEBERGEMENT */
@@ -1379,7 +1380,7 @@ footer ul li {
   #famous h2 {
     /* border: 2px solid green; */
     font-size: 18px;
-    padding-left: 7px;
+    padding-left: 20px;
   }
 
   #famous .card-2 h3 {
@@ -1391,7 +1392,7 @@ footer ul li {
     font-size: 16px;
     position: relative;
     top: 0px;
-    right: -22px;
+    right: -20px;
     /* border: 2px solid grey; */
   }
 
@@ -1400,13 +1401,17 @@ footer ul li {
     padding-bottom: 0px !important;
   }
 
-  .card-2 {
+  .card-2  {
     width: 320px;
     max-width: 100%;
     padding-top: 15px;
     padding-bottom: 11px;
-    margin-left: 8px;
+    margin-left: 18px;
     margin-right: 40px;
+  }
+
+  .card-2 a {
+    width: 306px!important;
   }
 
   #famous .card-2 p {
