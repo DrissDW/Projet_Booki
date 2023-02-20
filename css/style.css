@@ -1187,8 +1187,6 @@ footer ul li {
   }
 
   #search_button {
-    width: 30px;
-    font-size: 14px;
     display:none
     
   }
@@ -1222,4 +1220,12 @@ footer ul li {
     border: none;
    z-index: 0;
   }
+
+  #search #repere {
+    /* border: solid 2px red; */
+    font-size: 20px;
+    padding-left: 19px;
+    padding-right: 0px;
+  }
+
 }
