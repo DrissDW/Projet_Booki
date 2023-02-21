@@ -1147,20 +1147,24 @@ footer ul li {
   #nav_select {
     font-size: 14px;
     border-bottom: 4px solid #f2f2f2;
+    width: 100%;
+    
     padding-bottom: 20px;
   }
 
   #hebergement_select a {
-    padding-right: 35px;
+    /* border: 2px solid red; */
+    padding-right: 30px;
+    /* padding-left: 65px; */
     width: 167px;
     max-width: 100%;
   }
 
   #activity_select a {
     /* border: 2px solid blue; */
-    padding-right: 90px;
-    padding-left: 45px;
-    width: 167px;
+    padding-right: 70px;
+    /* padding-left: 45px; */
+    width: 160px;
     max-width: 100%;
   }
 
@@ -1168,6 +1172,7 @@ footer ul li {
     color: #0065fc;
     border-top: none;
     padding-top: none;
+    /* width: 100%; */
     border-bottom: 4px solid #0065fc;
     padding-bottom: 20px;
   }
@@ -1366,8 +1371,10 @@ footer ul li {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 593px;
+    padding-top: 625px;
     max-width: 100%;
+    border-radius: 0px;
+    padding-bottom: 600px;
   }
 
   /* ARTCILE FAMOUS */
@@ -1375,6 +1382,11 @@ footer ul li {
     /* border: 2px solid black; */
     margin-left: 0px;
     border-radius: 0px;
+    
+  }
+
+  #famous_block {
+    padding-bottom: 50px;
   }
 
   #famous h2 {
@@ -1465,17 +1477,249 @@ footer ul li {
 
   /* ARTICLE ROOM */
   #room {
-    border: 2px solid violet;
-    margin-top: 50px;
+    /* border: 2px solid violet; */
+    margin-top: 0px;
+    background-color: white;
+    padding-bottom: 0px;
+    border-radius: 0px;
   }
 
   #hebergement h2 {
     font-size: 18px;
   }
 
+  .block_1{
+    flex-direction: column;
+    /* border: 2px solid blue; */
+  }
+
+  .block_2 {
+      flex-direction: column;
+      /* border: 2px solid green; */
+      margin-top: 0px;
+  }
+
+  #end_title a {
+    display: none;
+  }
+
+ 
+  .card {
+    width: 300px;
+    height: 195px;
+    margin-bottom: 16px;
+  }
+
+ 
+
+  .card  img {
+    width: 283px!important;
+  }
+
+  .card h3 {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 10px;
+  }
+
+  .card i {
+    font-size: 11px;
+  }
+
+  /* REGLAGE ZOOM IMAGE CARD */
+  .zoom-card {
+    overflow: hidden;
+    margin: 6px 4px 30px 6px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    width: 288px;
+    max-width: 100%;
+    height: 110px;
+  }
+
+  .cannebiere-img {
+    transform: scale(1.1);
+    object-position: -10px -46px;
+    object-fit: cover;
+  }
+
+  .port-img {
+    transform: scale(1.1);
+    object-position: -10px -48px;
+    object-fit: cover;
+  }
+
+  .mouette-img {
+    transform: scale(1.1);
+    object-position: 0px -44.2px;
+    object-fit: cover;
+  }
+
+  .hotel-mer-img {
+    transform: scale(1.1);
+    object-position: -10px -78px;
+    object-fit: cover;
+  }
+
+  .panier-img {
+    transform: scale(1.1);
+    object-position: -9px -22px;
+    object-fit: cover;
+  }
+
+  .amina-img {
+    transform: scale(1.1);
+    object-position: -5px -158px;
+    object-fit: cover;
+  }
+
+  /* SECTION ACTIVITY */
+
+  #activity {
+    width: 325px;
+    max-width: 100%;
+    /* border: 2px solid black; */
+    border-radius: 0px;
+    padding-left: 20px;
+   
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column!important;
+  }
+
+  #activity h2 {
+    padding-bottom: 0px;
+    padding-left: 2px;
+    font-size: 18px;
+    width: 90px;
+    
+  }
+
+  #container-card-3 {
+    flex-direction: column;
+  }
+
+  .card-3 {
+    height: 170px;
+    width: 300px;
+    margin-bottom: 25px;
+  }
+
+  .card-3 a h3 {
+    font-size: 14px;
+    
+  }
+
+  /* REGLAGES ZOOM IMAGES CARD-3 */
+  .zoom-card-3 {
+    width: 300px;
+    max-width: 100%;
+    height: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+  }
+
+  .vieux-img {
+    background-image: url(/images/activites/3_medium/vieux-port.jpg);
+    height: 160px !important;
+    width: 100%;
+    transform: scale(1);
+    object-position: 0px -12px;
+    object-fit: cover;
+  }
+
+  .fort-img {
+    background-image: url(/images/activites/3_medium/fort-de-pomegues.jpg);
+    height: 160px !important;
+    width: 100%;
+    transform: scale(1.1);
+    object-position: 0px -150px;
+    object-fit: cover;
+   
+  }
+
+  .parc-img {
+    background-image: url(/images/activites/3_medium/parc-national-des-calanques.jpg);
+    height: 160px !important;
+    width: 100%;
+    transform: scale(1.2);
+    object-position: 1px -21px;
+    object-fit: cover;
+    filter: brightness(150%);
+  }
+
+  .dame-img {
+    background-image: url(/images/activites/3_medium/notre-dame-de-la-garde.jpg);
+    height: 160px !important;
+    width: 100% ;
+    transform: scale(1.1);
+    object-position: 0px -15px;
+    object-fit: cover;
+  }
+
+ /* FOOTER */
+
+ footer {
+  width: 100%;
+  margin-top: 390px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding-bottom: 40px;
+}
+
+footer h4 {
+  font-size: 16px;
+}
+
+footer ul li {
+  font-size: 14px;
+}
+
+#container-about h4, ul {
+  padding-left: 30px;
+}
+
+#container-hebergement h4 {
+  padding-left: 85px;
+  
+}
+
+#container-hebergement ul {
+  padding-left: 85px;
+}
+
+#container-assistance h4 {
+  padding-left: 120px;
+}
+
+#container-assistance ul {
+  padding-left: 120px;
+}
+
+#container-hebergement {
+  position: relative;
+  top:-30px;
+}
+
+#container-assistance {
+  position: relative;
+  top: -55px;
+
+}
+
+/* temporaire */
   html {
     border: 2px solid red;
     padding-left: 25px;
     padding-right: 25px;
+    height: 4190px;
+   
   }
+
+ 
+
 }
