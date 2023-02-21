@@ -1153,18 +1153,21 @@ footer ul li {
   }
 
   nav img {
-    width: 63px;
+    width: 66px;
     max-width: 100%;
-    height: auto;
     /* border: 2px solid black; */
-    margin-left: 141px;
+    /* margin-left: 140px; */
     margin-bottom: 40px;
+    /* padding-right: 50px; */
+    padding-left: 40%;
+    
   }
 
   #nav_select {
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid green; */
+    max-width: 100%;
+    border: 2px solid green;
     /* padding-left: 10px; */
     /* padding-right: 48px; */
   }
@@ -1172,7 +1175,7 @@ footer ul li {
   #nav_select {
     font-size: 14px;
     border-bottom: 4px solid #f2f2f2;
-    width: 100%;
+    max-width: 100%;
 
     padding-bottom: 20px;
   }
@@ -1181,8 +1184,8 @@ footer ul li {
     /* border: 2px solid red; */
     padding-right: 30px;
     /* padding-left: 65px; */
-    width: 167px;
-    max-width: 100%;
+    width: 197px!important;
+    /* max-width: 100%; */
   }
 
   #activity_select a {
@@ -1202,6 +1205,8 @@ footer ul li {
   }
 
   #header_title h1 {
+    /* border: solid 2px red; */
+    padding-right: 5px;
     font-size: 20px;
     text-align: left;
     line-height: 140%;
@@ -1215,16 +1220,16 @@ footer ul li {
   }
 
   form {
-    max-width: 100%;
+    width: 100%;
     /* border: 3PX SOLID BLACK; */
     display: flex;
-    padding-left: 20px;
+    padding-left: 23px;
     /* padding-right: 25px; */
   }
 
   #search_bar {
-    width: 190px;
-    max-width: 100%;
+    width: 100%;
+    /* max-width: 100%; */
     position: relative;
     right: -0px;
     font-size: 16px;
@@ -1273,7 +1278,9 @@ footer ul li {
   #filtered {
     /* border: 6px solid green; */
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
+    font-size: 18px;
+    
   }
 
   #filtered_bloc_1 {
@@ -1281,10 +1288,10 @@ footer ul li {
     display: flex;
     justify-content: stretch;
     align-items: baseline;
-    max-width: 100%;
+    width: 100%;
     padding-bottom: 30px;
     padding-top: 20px;
-    padding-right: 30px;
+    
   }
 
   #filtered_bloc_2 {
@@ -1292,7 +1299,7 @@ footer ul li {
     display: flex;
     justify-content: stretch;
     align-items: baseline;
-    /* max-width: 100%; */
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 20px;
     margin-right: 0px;
@@ -1318,19 +1325,22 @@ footer ul li {
   #filtered #a_money a {
     /* border: 3px solid red; */
     border-radius: 22px;
-    padding: 15px 34px 15px 28px;
+    padding: 15px 56px 15px 28px;
+    
+    /* margin-right: 13px; */
   }
 
   #filtered #a_familly a {
     /* border: 3px solid red; */
     border-radius: 22px;
-    padding: 15px 56px 15px 30px;
+    padding: 15px 80px 15px 24.5px;
+    margin-left: 0px;
   }
 
   #filtered #a_romantic a {
     /* border: 3px solid red; */
     border-radius: 22px;
-    padding: 15px 40px 15px 28px;
+    padding: 15px 60px 15px 28px;
   }
 
   #filtered #a_animal a {
@@ -1341,8 +1351,8 @@ footer ul li {
     right: 8px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 14px;
-    padding-left: 27px;
+    padding-right: 31px;
+    padding-left: 28px;
   }
 
   #a_animal i {
@@ -1359,8 +1369,8 @@ footer ul li {
 
   #a_familly i {
     position: relative;
-    top: 2.5px;
-    left: 30px;
+    /* top: 0px; */
+    left: 26px;
   }
 
   #a_romantic i {
@@ -1373,6 +1383,7 @@ footer ul li {
     font-size: 14px;
     line-height: 150%;
     padding-left: 10px;
+    width: 100%;
   }
 
   #header_counter i {
@@ -1406,11 +1417,16 @@ footer ul li {
     /* border: 2px solid black; */
     margin-left: 0px;
     border-radius: 0px;
+    width: 100ù;
   }
 
   #famous_block {
+    /* border: 2px solid black; */
+    max-width: 100%;
     padding-bottom: 50px;
-    padding-left: 20px;
+    padding-left: 0px;
+    padding-right: 10px!important;
+    justify-content: center;
   }
 
   #famous h2 {
@@ -1426,6 +1442,7 @@ footer ul li {
 
   #famous_title i {
     font-size: 16px;
+    width: 100%;
     /* position: relative; */
     /* top: 0px; */
     /* right: -20px; */
@@ -1438,16 +1455,19 @@ footer ul li {
   }
 
   .card-2 {
-    width: 280px;
-    max-width: 100%;
+    /* border: 2px solid black; */
+    width: 90%!important;
+    
+    /* max-width: 100%; */
     padding-top: 15px;
     padding-bottom: 11px;
-    margin-left: 18px;
-    margin-right: 40px;
+    margin-left: 25px;
+    /* margin-right: 16px; */
   }
 
   .card-2 a {
-    width: 306px !important;
+    width: 100% !important;
+    /* max-width: 100%; */
   }
 
   #famous .card-2 p {
