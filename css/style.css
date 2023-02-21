@@ -1431,7 +1431,7 @@ footer ul li {
   }
 
   .card-2 {
-    width: 320px;
+    width: 280px;
     max-width: 100%;
     padding-top: 15px;
     padding-bottom: 11px;
@@ -1723,7 +1723,7 @@ footer ul li {
 
   /* temporaire */
   html {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-left: 25px;
     padding-right: 25px;
     height: 4190px;
