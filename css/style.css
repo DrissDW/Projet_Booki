@@ -726,7 +726,7 @@ footer ul li {
 
 /* TABLETTE */
 
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 991.9px) and (min-width: 768px) {
   /* HEADER */
 
   nav {
@@ -749,6 +749,27 @@ footer ul li {
   #filtered a,
   p {
     font-size: 12.5px;
+  }
+
+  #filtered {
+    /* border: 2px solid black; */
+    padding-right: 30px;
+    max-width: 100ù;
+  }
+
+  #filtered_bloc_1 {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-right: 40px;
+  }
+
+  #filtered_bloc_2 {
+    /* border: 2px solid black; */
+    position: relative;
+    top: 0px;
+    right: 30px;
   }
 
   #header_counter p {
@@ -1112,7 +1133,7 @@ footer ul li {
 
 /* MOBILE */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.9px) {
   /* HEADER */
   header {
     /* border: 2px solid blue; */
@@ -1124,7 +1145,7 @@ footer ul li {
   nav {
     /* border: 2px solid red; */
     flex-direction: column;
-   max-width: 100% !important;
+    max-width: 100% !important;
   }
 
   nav img {
@@ -1148,7 +1169,7 @@ footer ul li {
     font-size: 14px;
     border-bottom: 4px solid #f2f2f2;
     width: 100%;
-    
+
     padding-bottom: 20px;
   }
 
@@ -1179,7 +1200,7 @@ footer ul li {
 
   #header_title h1 {
     font-size: 20px;
-    text-align:left;
+    text-align: left;
     line-height: 140%;
     padding-left: 20px;
   }
@@ -1382,7 +1403,6 @@ footer ul li {
     /* border: 2px solid black; */
     margin-left: 0px;
     border-radius: 0px;
-    
   }
 
   #famous_block {
@@ -1413,7 +1433,7 @@ footer ul li {
     padding-bottom: 0px !important;
   }
 
-  .card-2  {
+  .card-2 {
     width: 320px;
     max-width: 100%;
     padding-top: 15px;
@@ -1423,7 +1443,7 @@ footer ul li {
   }
 
   .card-2 a {
-    width: 306px!important;
+    width: 306px !important;
   }
 
   #famous .card-2 p {
@@ -1488,32 +1508,29 @@ footer ul li {
     font-size: 18px;
   }
 
-  .block_1{
+  .block_1 {
     flex-direction: column;
     /* border: 2px solid blue; */
   }
 
   .block_2 {
-      flex-direction: column;
-      /* border: 2px solid green; */
-      margin-top: 0px;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    margin-top: 0px;
   }
 
   #end_title a {
     display: none;
   }
 
- 
   .card {
     width: 300px;
     height: 195px;
     margin-bottom: 16px;
   }
 
- 
-
-  .card  img {
-    width: 283px!important;
+  .card img {
+    width: 283px !important;
   }
 
   .card h3 {
@@ -1583,10 +1600,10 @@ footer ul li {
     /* border: 2px solid black; */
     border-radius: 0px;
     padding-left: 20px;
-   
+
     margin-top: 160px;
     display: flex;
-    flex-direction: column!important;
+    flex-direction: column !important;
   }
 
   #activity h2 {
@@ -1594,7 +1611,6 @@ footer ul li {
     padding-left: 2px;
     font-size: 18px;
     width: 90px;
-    
   }
 
   #container-card-3 {
@@ -1609,7 +1625,6 @@ footer ul li {
 
   .card-3 a h3 {
     font-size: 14px;
-    
   }
 
   /* REGLAGES ZOOM IMAGES CARD-3 */
@@ -1638,7 +1653,6 @@ footer ul li {
     transform: scale(1.1);
     object-position: 0px -150px;
     object-fit: cover;
-   
   }
 
   .parc-img {
@@ -1654,72 +1668,67 @@ footer ul li {
   .dame-img {
     background-image: url(/images/activites/3_medium/notre-dame-de-la-garde.jpg);
     height: 160px !important;
-    width: 100% ;
+    width: 100%;
     transform: scale(1.1);
     object-position: 0px -15px;
     object-fit: cover;
   }
 
- /* FOOTER */
+  /* FOOTER */
 
- footer {
-  width: 100%;
-  margin-top: 390px;
-  display: flex;
-  flex-direction: column;
-  height: 500px;
-  padding-bottom: 40px;
-}
+  footer {
+    width: 100%;
+    margin-top: 390px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding-bottom: 40px;
+  }
 
-footer h4 {
-  font-size: 16px;
-}
+  footer h4 {
+    font-size: 16px;
+  }
 
-footer ul li {
-  font-size: 14px;
-}
+  footer ul li {
+    font-size: 14px;
+  }
 
-#container-about h4, ul {
-  padding-left: 30px;
-}
+  #container-about h4,
+  ul {
+    padding-left: 30px;
+  }
 
-#container-hebergement h4 {
-  padding-left: 85px;
-  
-}
+  #container-hebergement h4 {
+    padding-left: 85px;
+  }
 
-#container-hebergement ul {
-  padding-left: 85px;
-}
+  #container-hebergement ul {
+    padding-left: 85px;
+  }
 
-#container-assistance h4 {
-  padding-left: 120px;
-}
+  #container-assistance h4 {
+    padding-left: 120px;
+  }
 
-#container-assistance ul {
-  padding-left: 120px;
-}
+  #container-assistance ul {
+    padding-left: 120px;
+  }
 
-#container-hebergement {
-  position: relative;
-  top:-30px;
-}
+  #container-hebergement {
+    position: relative;
+    top: -30px;
+  }
 
-#container-assistance {
-  position: relative;
-  top: -55px;
+  #container-assistance {
+    position: relative;
+    top: -55px;
+  }
 
-}
-
-/* temporaire */
+  /* temporaire */
   html {
     border: 2px solid red;
     padding-left: 25px;
     padding-right: 25px;
     height: 4190px;
-   
   }
-
- 
-
 }
