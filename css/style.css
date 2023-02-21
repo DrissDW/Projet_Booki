@@ -3,11 +3,17 @@
 /* GLOBAL */
 html {
   max-width: 1400px;
-  /* le border est remporraire */
-  /* border: 1px solid black; */
-  padding-left: 35px;
-  padding-right: 25px;
+  overflow-x: hidden!important;
+  overflow-y: auto!important;
+  padding-left: 0px;
+  padding-right: 0px;
   font-family: "Raleway", sans-serif;
+}
+
+body {
+  overflow-x: hidden!important;
+  overflow-y: auto!important;
+  max-width: 100%;
 }
 
 #loupe {
@@ -1286,7 +1292,7 @@ footer ul li {
     display: flex;
     justify-content: stretch;
     align-items: baseline;
-    max-width: 100%;
+    /* max-width: 100%; */
     padding-top: 15px;
     padding-bottom: 20px;
     margin-right: 0px;
@@ -1404,12 +1410,13 @@ footer ul li {
 
   #famous_block {
     padding-bottom: 50px;
+    padding-left: 20px;
   }
 
   #famous h2 {
     /* border: 2px solid green; */
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 40px;
   }
 
   #famous .card-2 h3 {
@@ -1419,9 +1426,9 @@ footer ul li {
 
   #famous_title i {
     font-size: 16px;
-    position: relative;
-    top: 0px;
-    right: -20px;
+    /* position: relative; */
+    /* top: 0px; */
+    /* right: -20px; */
     /* border: 2px solid grey; */
   }
 
@@ -1460,13 +1467,13 @@ footer ul li {
 
   #pos-star-coeur {
     position: relative;
-    top: 25px;
+    top: 4px;
     left: -8px;
   }
 
   #pos-bleu-blanc {
     position: relative;
-    top: 18px;
+    top: -1px;
     left: -8px;
   }
 
@@ -1724,8 +1731,12 @@ footer ul li {
   /* temporaire */
   html {
     /* border: 2px solid red; */
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
     height: 4190px;
+  }
+
+  body{
+    /* border: 2px solid black; */
   }
 }
