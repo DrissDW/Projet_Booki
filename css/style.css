@@ -394,8 +394,8 @@ i {
   left: 7.5px;
 }
 
-#grey_star {
-  color: #f2f2f2;
+.grey_star {
+  color: #f2f2f2!important;
 }
 
 /* CARDS famous */
