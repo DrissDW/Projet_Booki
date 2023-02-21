@@ -269,8 +269,6 @@ p {
   width: 880px;
   max-width: 100%;
   height: 626px;
-  padding-left: auto;
-  padding-right: auto;
 }
 
 #famous {
@@ -395,7 +393,7 @@ i {
 }
 
 .grey_star {
-  color: #f2f2f2!important;
+  color: #f2f2f2 !important;
 }
 
 /* CARDS famous */
@@ -754,7 +752,7 @@ footer ul li {
   #filtered {
     /* border: 2px solid black; */
     padding-right: 30px;
-    max-width: 100ù;
+    max-width: 100%;
   }
 
   #filtered_bloc_1 {
@@ -1047,7 +1045,7 @@ footer ul li {
 
   .card-3 img {
     height: 200px;
-    border: 2px solid bleu;
+    /* border: 2px solid blue; */
   }
 
   .card-3 a h3 {
@@ -1192,7 +1190,6 @@ footer ul li {
   nav a:hover {
     color: #0065fc;
     border-top: none;
-    padding-top: none;
     /* width: 100%; */
     border-bottom: 4px solid #0065fc;
     padding-bottom: 20px;
