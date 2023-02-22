@@ -758,22 +758,32 @@ footer ul li {
   #filtered {
     /* border: 2px solid black; */
     padding-right: 30px;
-    max-width: 100%;
+    width: 100%;
   }
 
   #filtered_bloc_1 {
     /* border: 2px solid black; */
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
-    padding-right: 40px;
+    justify-content: stretch;
+    /* justify-content: stretch; */
+    /* padding-right: 40px; */
+    /* width: 50%; */
+    margin-left: 20px;
   }
 
   #filtered_bloc_2 {
     /* border: 2px solid black; */
+    
+    justify-content: stretch;
     position: relative;
     top: 0px;
-    right: 30px;
+    right: 20px;
+    /* width:50%; */
+    padding-right: 25px;
+    /* margin-left: 15px; */
+    /* margin-right: 10px; */
+    /* overflow: hidden; */
   }
 
   #header_counter p {
@@ -832,6 +842,7 @@ footer ul li {
 
   #room {
     margin-bottom: 40px;
+    width: 100%;
   }
   /* REGLAGE IMAGE CARD */
 
@@ -898,10 +909,11 @@ footer ul li {
   #famous {
     display: flex;
     flex-wrap: wrap;
-    width: 900px;
+    width: 100%;
     height: 650px !important;
     /* border: 2px solid black; */
     margin-left: 0px;
+    padding-left: 7px;
   }
 
   #famous_title {
@@ -913,7 +925,8 @@ footer ul li {
   }
 
   #famous_title i {
-    padding-right: 16px;
+    
+    width: 100%;
   }
 
   #famous_block {
@@ -925,7 +938,7 @@ footer ul li {
 
   #famous .card-2 {
     /* border: 2px solid blue; */
-    width: 240px;
+    width: 100%;
     height: 125px;
     margin: 10px;
     /* overflow: hidden; */
@@ -952,7 +965,7 @@ footer ul li {
 
   #famous .card-2 a {
     height: 135px;
-    width: 210px;
+    width: 100%;
     /* overflow: hidden; */
     /* padding-bottom: 205px!important; */
   }
@@ -1031,7 +1044,11 @@ footer ul li {
     /* border: 2px solid red; */
     margin-top: 235px;
     height: 350px;
+    width: 100%;
+    
   }
+
+ 
 
   #activity h2 {
     /* border: 2px solid black; */
@@ -1045,7 +1062,7 @@ footer ul li {
   .card-3 {
     overflow: hidden;
     height: 255px;
-    width: 155px;
+    width: 174px;
     /* border: solid 2px green; */
   }
 
