@@ -1275,7 +1275,7 @@ footer ul li {
   }
 
   #filtered {
-    /* border: 6px solid green; */
+    /* border: 3px solid green; */
     flex-direction: column;
     width: 100%;
     font-size: 18px;
@@ -1287,7 +1287,7 @@ footer ul li {
     justify-content: stretch;
     align-items: baseline;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     padding-top: 20px;
   }
 
@@ -1366,7 +1366,6 @@ footer ul li {
 
   #a_familly i {
     position: relative;
-    /* top: 0px; */
     left: 26px;
   }
 
@@ -1759,17 +1758,5 @@ footer ul li {
   #container-assistance {
     position: relative;
     top: -55px;
-  }
-
-  /* temporaire */
-  html {
-    /* border: 2px solid red; */
-    /* padding-left: 25px; */
-    /* padding-right: 25px; */
-    height: 4190px;
-  }
-
-  body {
-    /* border: 2px solid black; */
   }
 }
