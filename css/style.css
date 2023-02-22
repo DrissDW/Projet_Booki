@@ -1616,28 +1616,28 @@ footer ul li {
     width: 280px !important;
     height: auto !important;
     transform: scale(1.08);
-    object-position: -19px -56px;
+    object-position: -19px -58px;
     object-fit: cover;
   }
 
   .port-img {
     background-image: url(./images/hebergements/3_medium/auberge-cannebiere.jpg);
     transform: scale(1.1);
-    object-position: -14px -75px;
+    object-position: -14px -79px;
     object-fit: cover;
   }
 
   .mouette-img {
     background-image: url(./images/hebergements/3_medium/hotel-des-mouettes.jpg);
     transform: scale(1.1);
-    object-position: 0px -74px;
+    object-position: 0px -78px;
     object-fit: cover;
   }
 
   .hotel-mer-img {
     background-image: url(./images/hebergements/3_medium/hotel-de-mer.jpg);
     transform: scale(1.1);
-    object-position: -12px -124px;
+    object-position: -12px -135px;
     object-fit: cover;
   }
 
@@ -1651,7 +1651,7 @@ footer ul li {
   .amina-img {
     background-image: url(./images/hebergements/3_medium/hotel-chez-amina.jpg);
     transform: scale(1.1);
-    object-position: -15px -218px;
+    object-position: -16px -240px;
     object-fit: cover;
   }
 
