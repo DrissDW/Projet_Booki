@@ -1167,7 +1167,7 @@ footer ul li {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     /* padding-left: 10px; */
     /* padding-right: 48px; */
   }
@@ -1182,16 +1182,16 @@ footer ul li {
 
   #hebergement_select a {
     /* border: 2px solid red; */
-    padding-right: 30px;
-    /* padding-left: 65px; */
+    padding-right: 45px;
+    /* padding-left: 35px; */
     width: 197px!important;
     /* max-width: 100%; */
   }
 
   #activity_select a {
     /* border: 2px solid blue; */
-    padding-right: 70px;
-    /* padding-left: 45px; */
+    padding-right: 80px;
+    padding-left: 45px;
     width: 160px;
     max-width: 100%;
   }
