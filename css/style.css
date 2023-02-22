@@ -758,7 +758,8 @@ footer ul li {
   #filtered {
     /* border: 2px solid black; */
     padding-right: 30px;
-    width: 100%;
+    width: 800px;
+    /* justify-content: ; */
   }
 
   #filtered_bloc_1 {
@@ -768,18 +769,18 @@ footer ul li {
     justify-content: stretch;
     /* justify-content: stretch; */
     /* padding-right: 40px; */
-    /* width: 50%; */
+    width: 490px;
     margin-left: 20px;
   }
 
   #filtered_bloc_2 {
     /* border: 2px solid black; */
-    
+
     justify-content: stretch;
     position: relative;
     top: 0px;
     right: 20px;
-    /* width:50%; */
+    width: 595px;
     padding-right: 25px;
     /* margin-left: 15px; */
     /* margin-right: 10px; */
@@ -794,6 +795,7 @@ footer ul li {
   #hebergement {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   #hebergement h2 {
@@ -815,14 +817,14 @@ footer ul li {
   }
 
   .card {
-    width: 295px !important;
+    width: 100% !important;
     height: 180px;
     /* border :2px solid red; */
     padding-right: 12px;
   }
 
   .card img {
-    width: 220px !important;
+    width: 100% !important;
   }
 
   .card .card_text {
@@ -851,56 +853,52 @@ footer ul li {
     margin: 6px 4px 30px 6px;
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
-    width: 238px;
+    width: 100%;
     max-width: 100%;
     height: 110px;
   }
 
   .cannebiere-img {
     background-image: url(./images/hebergements/3_medium/auberge-cannebiere.jpg);
-    width: 230px !important;
-    height: 115px !important;
-    transform: scale(1.15);
-    object-position: -12px -18.5px;
+    /* width: 230px !important; */
+    /* height: 115px !important; */
+    transform: scale(1.1);
+    object-position: -12px -23px;
     object-fit: cover;
   }
 
   .port-img {
     background-image: url(./images/hebergements/3_medium/hotel-du-port.jpg);
-    transform: scale(1.08);
-    object-position: -10px -17.5px;
+    transform: scale(1.1);
+    object-position: -14px -35.5px;
     object-fit: cover;
   }
 
   .mouette-img {
     background-image: url(./images/hebergements/3_medium/hotel-des-mouettes.jpg);
     transform: scale(1.1);
-    object-position: -5px -18px;
+    object-position: -5px -32px;
     object-fit: cover;
   }
 
   .hotel-mer-img {
     background-image: url(./images/hebergements/3_medium/hotel-de-mer.jpg);
-    width: 150px !important;
-    height: 210px !important;
     transform: scale(1.1);
     object-position: -6px -52px;
-    object-fit: fill;
+    object-fit: cover;
   }
 
   .panier-img {
     background-image: url(./images/hebergements/3_medium/auberge-le-panier.jpg);
-    transform: scale(1.08);
-    object-position: -7px -6px;
-    object-fit: contain;
+    transform: scale(1.1);
+    object-position: -13px -6px;
+    object-fit: cover;
   }
 
   .amina-img {
     background-image: url(./images/hebergements/3_medium/hotel-chez-amina.jpg);
-    width: 260px !important;
-    height: 250px !important;
     transform: scale(1.08);
-    object-position: -3px -96px;
+    object-position: -4px -108px;
     object-fit: cover;
   }
 
@@ -925,7 +923,6 @@ footer ul li {
   }
 
   #famous_title i {
-    
     width: 100%;
   }
 
@@ -1045,10 +1042,7 @@ footer ul li {
     margin-top: 235px;
     height: 350px;
     width: 100%;
-    
   }
-
- 
 
   #activity h2 {
     /* border: 2px solid black; */
