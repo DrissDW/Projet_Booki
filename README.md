@@ -16,12 +16,19 @@ La réalisation doit se faire en suivant le cahier des charges, le responsive do
 --------------------
 * Un fichier "index.html" contenant l’ensemble du code HTML du projet.
 * Un dossier “CSS” comprenant un fichier “style.css” contenant l’ensemble du code CSS du projet.
-* Un dossier “images” contenant l’ensemble des images utilisées.
+*  Un dossier “images” contenant l’ensemble des images utilisées.
 ------------------------------
 ## Pièces jointes :
 -----------------------------
-* [Maquette du site Booki](https://www.figma.com/file/aen32jonHhD7JnIEL2b3sE/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?node-id=3%3A0&t=qANwIVXnzdrNrcoH-0)
+* 🔎 [Maquette du site Booki](https://www.figma.com/file/aen32jonHhD7JnIEL2b3sE/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?node-id=3%3A0&t=qANwIVXnzdrNrcoH-0)
 
-* [Images du site de Booki](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/DWP_P3+HTML+CSS+Booki/Images+Booki.zip)
+* 🔎 [Images du site de Booki](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/DWP_P3+HTML+CSS+Booki/Images+Booki.zip)
 
-* [Note de synthèse pour intégration du site Booki](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/Note+de+synthe%CC%80se+pour+inte%CC%81gration+du+site+Booki+(IW).pdf)
+* 🔎 [Note de synthèse pour intégration du site Booki](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/Note+de+synthe%CC%80se+pour+inte%CC%81gration+du+site+Booki+(IW).pdf) 
+---
+## Résulat :
+---
+Vous pouvez visualiser mon travail en vous rendant sur le lien suivant :         
+🖥️ https://drissdw.github.io/Projet_Booki/ 🖥️
+
+
