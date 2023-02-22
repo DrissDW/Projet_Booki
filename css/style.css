@@ -1603,7 +1603,7 @@ footer ul li {
   .port-img {
     background-image: url(./images/hebergements/3_medium/auberge-cannebiere.jpg);
     transform: scale(1.1);
-    object-position: -14px -70px;
+    object-position: -14px -75px;
     object-fit: cover;
   }
 
@@ -1617,7 +1617,7 @@ footer ul li {
   .hotel-mer-img {
     background-image: url(./images/hebergements/3_medium/hotel-de-mer.jpg);
     transform: scale(1.1);
-    object-position: -10px -108px;
+    object-position: -12px -124px;
     object-fit: cover;
   }
 
@@ -1631,7 +1631,7 @@ footer ul li {
   .amina-img {
     background-image: url(./images/hebergements/3_medium/hotel-chez-amina.jpg);
     transform: scale(1.1);
-    object-position: -14px -200px;
+    object-position: -15px -218px;
     object-fit: cover;
   }
 
