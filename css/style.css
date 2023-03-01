@@ -3,7 +3,7 @@
 /* GLOBAL */
 html {
   /* border: 2px solid black; */
-  max-width: 1400px;
+  /* max-width: 1400px; */
   overflow-x: hidden !important;
   overflow-y: auto !important;
   padding-left: 0px;
@@ -18,7 +18,7 @@ body {
   overflow-x: hidden !important;
   overflow-y: auto !important;
   max-width: 1400px;
-  max-width: 100%;
+  /* max-width: 100%; */
   margin-left: 50px;
   margin-right: 30px;
   /* padding-left: 30px; */
@@ -71,7 +71,6 @@ nav {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 25px;
-  
 }
 
 nav img {
@@ -294,7 +293,6 @@ p {
   height: 626px;
   padding-left: 20px;
   padding-right: 35px;
-  
 }
 
 #famous {
@@ -400,7 +398,6 @@ p {
 .card a {
   text-decoration: none;
   /* border: 5px solid red; */
-  
 }
 
 .card p,
@@ -951,9 +948,10 @@ footer ul li {
     justify-content: space-between;
   }
 
-  #famous_title i {
-    width: 100%;
-  }
+  /* #famous_title i {
+    
+    max-width: 0%;
+  } */
 
   #famous_block {
     /* border: 2px solid orangered; */
@@ -967,6 +965,7 @@ footer ul li {
     width: 30%;
     height: 125px;
     margin: 10px;
+    /* padding-bottom: 30px; */
     /* overflow: hidden; */
   }
 
@@ -1049,7 +1048,7 @@ footer ul li {
   #pos-star-soleil {
     position: relative;
     top: -6px;
-    left: -15px;
+    left: 27px;
   }
 
   #pos-star-coeur {
@@ -1224,7 +1223,6 @@ footer ul li {
     max-width: 100%;
     padding-bottom: 20px;
     padding-left: 30px;
-
   }
 
   section #room {
@@ -1239,16 +1237,15 @@ footer ul li {
     /* max-width: 100%; */
   }
 
-  #activity_select { 
+  #activity_select {
     padding-right: 30px;
   }
 
   #activity_select a {
-    
     /* border: 2px solid blue; */
     padding-right: 75px;
     padding-left: 40px;
-    margin-left:0;
+    margin-left: 0;
     /* width: 100%!important; */
     /* max-width: 100%; */
   }
@@ -1257,7 +1254,7 @@ footer ul li {
     color: #0065fc;
     border-top: none;
     /* width: 100%; */
-    
+
     border-bottom: 4px solid #0065fc;
     padding-bottom: 20px;
   }
@@ -1336,29 +1333,42 @@ footer ul li {
   #filtered {
     /* border: 3px solid green; */
     flex-direction: column;
-    width: 100%;
+    /* flex-flow: column wrap; */
+    /* max-width: 100%;  */
     font-size: 18px;
+    width: 290px !important;
+    max-width: 100% !important;
   }
 
   #filtered_bloc_1 {
     /* border: 2px solid red; */
     display: flex;
+    /* flex-wrap: wrap; */
+    /* display:inline flex; */
     justify-content: stretch;
-    align-items: baseline;
-    width: 128%;
+    /* align-items: baseline; */
+    width: 360px;
+    max-width: 130%;
     padding-bottom: 35px;
     padding-top: 20px;
+    flex-wrap: wrap;
+    /* line-height: 190%; */
+    /* transform: scale(1.1); */
   }
 
   #filtered_bloc_2 {
     /* border: solid 2px blue; */
-    display: flex;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     justify-content: stretch;
-    align-items: baseline;
-    width: 135%;
+    /* align-items: baseline; */
+    width: 370px;
+    max-width: 130%;
     padding-top: 15px;
     padding-bottom: 20px;
     margin-right: 0px;
+    margin-left: 0px;
+    /* line-height: 190%; */
   }
 
   #filtered p {
@@ -1366,7 +1376,12 @@ footer ul li {
   }
 
   #filtered a {
-    font-size: 10.8px;
+    /* border: #0065fc 2px solid; */
+    /* width: 200px!important; */
+    width: 100% !important;
+    font-size: 11px;
+    position: relative;
+    /* left: -40px; */
   }
 
   #filtered i {
@@ -1391,6 +1406,7 @@ footer ul li {
     border-radius: 22px;
     padding: 15px 80px 15px 24.5px;
     margin-left: 0px;
+    /* margin-top: 350px; */
   }
 
   #filtered #a_romantic a {
@@ -1473,6 +1489,7 @@ footer ul li {
     /* border: 2px solid black; */
     margin-left: 0px;
     border-radius: 0px;
+
     width: 100%;
   }
 
@@ -1533,14 +1550,11 @@ footer ul li {
   }
   #famous .card-2 i {
     /* border: 2px solid red; */
+    margin-bottom: 70px !important;
     font-size: 11px !important;
-   
-    
   }
-  
 
   #pos-star-soleil {
-    
     position: relative;
     top: -4px;
     left: -8px;
@@ -1825,11 +1839,16 @@ footer ul li {
     padding-left: 75px;
   }
 
+  #text-soleil {
+    /* border:2px solid red ; */
+    /* margin-bottom: 50px; */
+  }
+
   body {
-   
-    max-width:100% ;
+    /* width: 400px!important; */
+
+    max-width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
-  
 }
