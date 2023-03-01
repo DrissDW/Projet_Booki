@@ -782,7 +782,7 @@ footer ul li {
     /* border: 2px solid black; */
     padding-right: 30px;
     width: 800px;
-    max-width: 107%;
+    max-width: 108%;
     /* justify-content: ; */
   }
 
@@ -841,10 +841,10 @@ footer ul li {
   }
 
   .card {
-    width: 100% !important;
+    width: 29% !important;
     height: 180px;
     /* border :2px solid red; */
-    padding-right: 12px;
+    padding-right: 10px;
   }
 
   .card img {
@@ -868,7 +868,7 @@ footer ul li {
 
   #room {
     margin-bottom: 40px;
-    width: 100%;
+    width: 93%;
   }
   /* REGLAGE IMAGE CARD */
 
@@ -931,7 +931,7 @@ footer ul li {
   #famous {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 98%;
     height: 650px !important;
     /* border: 2px solid black; */
     margin-left: 0px;
@@ -1065,7 +1065,8 @@ footer ul li {
     /* border: 2px solid red; */
     margin-top: 235px;
     height: 350px;
-    width: 99%;
+    width: 98%;
+    padding-left: 10px;
   }
 
   #activity h2 {
@@ -1080,7 +1081,7 @@ footer ul li {
   .card-3 {
     overflow: hidden;
     height: 255px;
-    width: 23%;
+    width: 21%;
     /* border: solid 2px green; */
   }
 
@@ -1153,7 +1154,7 @@ footer ul li {
 
   footer div {
     /* border: 2px solid blue; */
-    padding-right: 40px;
+    padding-right: 100px;
   }
 
   footer h4 {
