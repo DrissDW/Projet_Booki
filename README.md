@@ -1,34 +1,35 @@
 
-## Projet 2  [ Booki ]
+## Project 2  [ Booki ]
 ------------------
 ![Alt Text](https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png)
 
-L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
 
-Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, je travaille en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer.
+The company wants to develop a website that allows users to find accommodation and activities in the city of their choice.
 
-Ma tâche consiste à Créer la page d'acceuil de L'agence de voyage Booki avec HTML ET CSS en me basant sur la maquette Figma de Loïc. 
-La réalisation doit se faire en suivant le cahier des charges, le responsive doit inclure, en plus du format pc, les formats tablettes et mobiles.
+I am responsible for integrating the interface of the site with HTML and CSS code. For this, I work in close collaboration with Sarah, the CTO, and Loïc, the UI designer.
+
+My task is to create the Booki travel agency home page with HTML AND CSS based on Loïc's Figma model.
+The realization must be done by following the specifications, the responsive must include, in addition to the pc format, the tablet and mobile formats.
 
 --------------------
 
-## Composition du projet :
+##  Projet Composition :
 --------------------
-* Un fichier "index.html" contenant l’ensemble du code HTML du projet.
-* Un dossier “CSS” comprenant un fichier “style.css” contenant l’ensemble du code CSS du projet.
-*  Un dossier “images” contenant l’ensemble des images utilisées.
+* An "index.html" file containing all of the project's HTML code.
+* A “CSS” folder including a “style.css” file containing all the CSS code for the project.
+*  An “images” folder containing all the images used.
 ------------------------------
-## Pièces jointes :
+## Attachments :
 -----------------------------
-* 🔎 [Maquette du site Booki](https://www.figma.com/file/aen32jonHhD7JnIEL2b3sE/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?node-id=3%3A0&t=qANwIVXnzdrNrcoH-0)
+* 🔎 [Mockup of the Booki site](https://www.figma.com/file/aen32jonHhD7JnIEL2b3sE/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?node-id=3%3A0&t=qANwIVXnzdrNrcoH-0)
 
-* 🔎 [Images du site de Booki](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/DWP_P3+HTML+CSS+Booki/Images+Booki.zip)
+* 🔎 [Images from the booki website](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/DWP_P3+HTML+CSS+Booki/Images+Booki.zip)
 
-* 🔎 [Note de synthèse pour intégration du site Booki](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/Note+de+synthe%CC%80se+pour+inte%CC%81gration+du+site+Booki+(IW).pdf) 
+* 🔎 [Summary note for integration of the Booki site](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/Note+de+synthe%CC%80se+pour+inte%CC%81gration+du+site+Booki+(IW).pdf) 
 ---
-## Résulat :
+## Résult :
 ---
-Vous pouvez visualiser mon travail en vous rendant sur le lien suivant :         
+You can view my work by going to the following link :         
 🖥️ https://drissdw.github.io/Projet_Booki/ 🖥️
 
 
