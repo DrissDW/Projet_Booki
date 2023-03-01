@@ -18,6 +18,7 @@ body {
   overflow-x: hidden !important;
   overflow-y: auto !important;
   max-width: 1400px;
+  max-width: 100%;
   margin-left: 50px;
   margin-right: 30px;
   /* padding-left: 30px; */
@@ -35,12 +36,14 @@ body {
   display: flex;
   justify-content: space-between;
   width: 380px;
+  max-width: 100%;
 }
 
 #filtered_bloc_2 {
   display: flex;
   justify-content: space-between;
   width: 450px;
+  max-width: 100%;
 }
 
 /* html img {
@@ -59,7 +62,7 @@ body {
 /* HEADER */
 
 header {
-  width: 99%;
+  max-width: 100%;
 }
 
 nav {
@@ -68,6 +71,7 @@ nav {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 25px;
+  
 }
 
 nav img {
@@ -85,6 +89,7 @@ nav div a {
   padding-left: 28px;
   text-decoration: none;
   font-size: 17px;
+  /* max-width: 10%; */
 }
 
 nav a:visited {
@@ -761,7 +766,7 @@ footer ul li {
   }
 
   nav div a {
-    /* border: 2px solid black;; */
+    /* border: 2px solid black; */
     font-size: 14px;
   }
 
@@ -1181,7 +1186,8 @@ footer ul li {
   /* HEADER */
   header {
     /* border: 2px solid blue; */
-    max-width: 100% !important;
+    /* width: 290px !important; */
+    max-width: 100%;
     /* overflow: hidden; */
   }
 
@@ -1204,7 +1210,8 @@ footer ul li {
 
   #nav_select {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-around; */
+    justify-content: space-around;
     max-width: 100%;
     /* border: 2px solid green; */
     /* padding-left: 10px; */
@@ -1215,30 +1222,42 @@ footer ul li {
     font-size: 14px;
     border-bottom: 4px solid #f2f2f2;
     max-width: 100%;
-
     padding-bottom: 20px;
+    padding-left: 30px;
+
+  }
+
+  section #room {
+    padding-left: 0px;
   }
 
   #hebergement_select a {
     /* border: 2px solid red; */
-    padding-right: 45px;
-    /* padding-left: 35px; */
+    /* padding-right: 45px; */
+    padding-left: 55px;
     width: 197px !important;
     /* max-width: 100%; */
   }
 
+  #activity_select { 
+    padding-right: 30px;
+  }
+
   #activity_select a {
+    
     /* border: 2px solid blue; */
-    padding-right: 80px;
-    padding-left: 45px;
-    width: 160px;
-    max-width: 100%;
+    padding-right: 75px;
+    padding-left: 40px;
+    margin-left:0;
+    /* width: 100%!important; */
+    /* max-width: 100%; */
   }
 
   nav a:hover {
     color: #0065fc;
     border-top: none;
     /* width: 100%; */
+    
     border-bottom: 4px solid #0065fc;
     padding-bottom: 20px;
   }
@@ -1326,7 +1345,7 @@ footer ul li {
     display: flex;
     justify-content: stretch;
     align-items: baseline;
-    width: 100%;
+    width: 128%;
     padding-bottom: 35px;
     padding-top: 20px;
   }
@@ -1336,7 +1355,7 @@ footer ul li {
     display: flex;
     justify-content: stretch;
     align-items: baseline;
-    width: 100%;
+    width: 135%;
     padding-top: 15px;
     padding-bottom: 20px;
     margin-right: 0px;
@@ -1513,10 +1532,15 @@ footer ul li {
     font-size: 10px;
   }
   #famous .card-2 i {
+    /* border: 2px solid red; */
     font-size: 11px !important;
+   
+    
   }
+  
 
   #pos-star-soleil {
+    
     position: relative;
     top: -4px;
     left: -8px;
@@ -1524,13 +1548,13 @@ footer ul li {
 
   #pos-star-coeur {
     position: relative;
-    top: 4px;
+    top: 25px;
     left: -8px;
   }
 
   #pos-bleu-blanc {
     position: relative;
-    top: -1px;
+    top: 20px;
     left: -8px;
   }
 
@@ -1574,14 +1598,14 @@ footer ul li {
     flex-direction: column;
     /* border: 2px solid blue; */
     padding-left: 20px;
-    width: 100%;
+    max-width: 100%;
   }
 
   .block_2 {
     flex-direction: column;
     /* border: 2px solid green; */
     padding-left: 20px;
-    width: 100%;
+    max-width: 100%;
     margin-top: 0px;
   }
 
@@ -1676,7 +1700,7 @@ footer ul li {
     border-radius: 0px;
     padding-left: 20px;
 
-    margin-top: 160px;
+    margin-top: 205px;
     display: flex;
     flex-direction: column !important;
   }
@@ -1771,7 +1795,7 @@ footer ul li {
 
   #container-about h4,
   ul {
-    padding-left: 30px;
+    padding-left: 10px;
   }
 
   #container-hebergement h4 {
@@ -1798,10 +1822,14 @@ footer ul li {
   #container-assistance {
     position: relative;
     top: -55px;
+    padding-left: 75px;
   }
 
   body {
+   
+    max-width:100% ;
     margin-left: 0;
     margin-right: 0;
   }
+  
 }
