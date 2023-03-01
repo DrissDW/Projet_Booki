@@ -1743,8 +1743,8 @@ footer ul li {
 
   /* REGLAGES ZOOM IMAGES CARD-3 */
   .zoom-card-3 {
-    width: 100%;
-    /* max-width: 100%; */
+    width: 800px;
+    /* max-width: 160%; */
     height: 120px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -1754,8 +1754,8 @@ footer ul li {
   .vieux-img {
     background-image: url(./images/activites/3_medium/vieux-port.jpg);
     height: 160px !important;
-    width: 250px;
-    transform: scale(1.15);
+    width: 260px;
+    transform: scale(1.5);
     object-position: 16px -12px;
     object-fit: cover;
   }
@@ -1764,7 +1764,7 @@ footer ul li {
     background-image: url(./images/activites/3_medium/fort-de-pomegues.jpg);
     height: 160px !important;
     width: 358.5px !important;
-    transform: scale(1.1);
+    transform: scale(1.4);
     object-position: 0px -190px;
     object-fit: cover;
   }
@@ -1773,8 +1773,8 @@ footer ul li {
     background-image: url(./images/activites/3_medium/parc-national-des-calanques.jpg);
     height: 160px !important;
     width: 100%;
-    transform: scale(1.2);
-    object-position: 1px -41px;
+    transform: scale(1.5);
+    object-position: 1px -46px;
     object-fit: cover;
     filter: brightness(150%);
   }
@@ -1783,8 +1783,8 @@ footer ul li {
     background-image: url(./images/activites/3_medium/notre-dame-de-la-garde.jpg);
     height: 160px !important;
     width: 100%;
-    transform: scale(1.1);
-    object-position: 0px -15px;
+    transform: scale(1.3);
+    object-position: 0px -10px;
     object-fit: cover;
   }
 
