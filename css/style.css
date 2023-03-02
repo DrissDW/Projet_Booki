@@ -1336,9 +1336,9 @@ footer ul li {
     /* flex-flow: column wrap; */
     /* max-width: 100%;  */
     font-size: 18px;
-    min-width: 400px;
-    max-width: 90%;
-    /* overflow: auto!important; */
+    min-width: 280px;
+    max-width: 30%;
+    overflow: visible;
   }
 
   #filtered_bloc_1 {
@@ -1348,8 +1348,8 @@ footer ul li {
     /* display:inline flex; */
     justify-content: stretch;
     /* align-items: baseline; */
-    min-width: 100px;
-    max-width: 90%;
+    min-width: 370px;
+    max-width: 100%;
     padding-bottom: 35px;
     padding-top: 20px;
     /* flex-wrap: wrap; */
@@ -1359,12 +1359,13 @@ footer ul li {
 
   #filtered_bloc_2 {
     /* border: solid 2px blue; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     justify-content: stretch;
+    /* flex-direction:column ; */
     /* align-items: baseline; */
-    width: 370px;
-    max-width: 130%;
+    min-width: 370px;
+    max-width: 100%;
     padding-top: 15px;
     padding-bottom: 20px;
     margin-right: 0px;
@@ -1378,15 +1379,16 @@ footer ul li {
 
   #filtered a {
     /* border: #0065fc 2px solid; */
-    /* width: 200px!important; */
-    width: 100% !important;
+    min-width: 200px !important;
+    max-width: 20% !important;
     font-size: 11px;
-    position: relative;
+    overflow: visible;
+
     /* left: -40px; */
   }
 
   #filtered i {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   #filtered #filtered_tittle p {
@@ -1855,5 +1857,189 @@ footer ul li {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  /* @media screen and (max-width: 340px) {
+
+    #filtered{
+      display: block!important;
+    } */
+
+  /* FORMAT FOR GALAXY FOLD */
+}
+
+@media screen and (max-width: 340px) {
+  /* HEADER */
+  #header_title h1 {
+    padding-left: 1px;
+    text-align: center;
+  }
+  #header_title p {
+    padding-left: 1px;
+    text-align: center;
+  }
+
+  /* FILTER */
+  #filtered {
+    /* border: 3px solid green; */
+    flex-direction: column;
+    /* flex-flow: column wrap; */
+    /* max-width: 100%;  */
+    font-size: 18px;
+    min-width: 280px;
+    max-width: 30%;
+    overflow: visible;
+  }
+
+  #filtered_bloc_1 {
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* display:inline flex; */
+    /* justify-content: center; */
+    /* align-items: baseline; */
+    min-width: 200px;
+    max-width: 100%;
+    /* padding-bottom: 35px; */
+    /* padding-top: 20px; */
+    flex-wrap: wrap;
+    line-height: 390%;
+    justify-content: left;
+    /* margin-top: 0px; */
+    /* transform: scale(1.1); */
+  }
+
+  #filtered_bloc_2 {
+    /* border: solid 2px blue; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* flex-direction:column ; */
+    /* align-items: baseline; */
+    min-width: 200px;
+    max-width: 100%;
+    /* height: 100px; */
+    /* padding-top: 15px; */
+    /* padding-bottom: 20px; */
+    margin-right: 0px;
+    margin-left: 0px;
+    line-height: 390%;
+  }
+  #filtered a {
+    /* border: #0065fc 2px solid; */
+    min-width: 200px !important;
+    max-width: 20% !important;
+    /* font-size: 14px; */
+    margin: 0px;
+    /* overflow: visible; */
+    position: relative;
+    /* left: 0px; */
+    /* top: 10px; */
+    /* margin-top: 60px; */
+  }
+
+  #filtered i {
+    font-size: 16px;
+  }
+
+  #filtered #filtered_tittle p {
+    font-size: 14px;
+    /* padding-left: 26px; */
+  }
+
+  #filtered #a_money a {
+    /* border: 3px solid red; */
+    border-radius: 22px;
+    padding: 15px 56px 15px 28px;
+    position: relative;
+    left: -11px;
+
+    /* margin-right: 13px; */
+  }
+
+  #filtered #a_familly a {
+    /* border: 3px solid red; */
+    border-radius: 22px;
+    padding: 15px 74px 15px 24.5px;
+    margin-left: 0px;
+    position: relative;
+    top: 20px;
+  }
+
+  #filtered #a_romantic a {
+    /* border: 3px solid red; */
+    border-radius: 22px;
+    padding: 15px 55px 15px 28px;
+    position: relative;
+    top: -15px;
+    left: -5px;
+  }
+
+  #filtered #a_animal a {
+    /* border: 3px solid red; */
+    border-radius: 22px;
+    position: relative;
+    top: 0;
+    right: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 31px;
+    padding-left: 28px;
+    position: relative;
+    top: 0px;
+  }
+
+  #a_animal i {
+    position: relative;
+    top: -1px;
+    left: 25px;
+  }
+
+  #a_money i {
+    position: relative;
+    top: 2.5px;
+    left: 18px;
+  }
+
+  #a_familly i {
+    position: relative;
+    left: 26px;
+    top: 20px;
+  }
+
+  #a_romantic i {
+    position: relative;
+    top: -13px;
+    left: 27px;
+  }
+
+  /* FAMOUS */
+  #pos-star-soleil {
+    position: relative;
+    top: -24px;
+  }
+
+  #pos-star-coeur {
+    position: relative;
+    top: 2px;
+  }
+
+  #pos-bleu-blanc {
+    position: relative;
+    top: 0px;
+  }
+
+  .card-2 a {
+    /* padding-right: 12px; */
+  }
+
+  /* room */
+  #room {
+    margin-left: 2px;
+  }
+
+  /* activity */
+  #activity {
+    padding-left: 14px;
   }
 }
