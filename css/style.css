@@ -1204,7 +1204,7 @@ footer ul li {
     /* margin-left: 140px; */
     margin-bottom: 40px;
     /* padding-right: 50px; */
-    padding-left: 40%;
+    padding-left: 44%;
   }
 
   #nav_select {
@@ -1426,6 +1426,8 @@ footer ul li {
     padding-bottom: 15px;
     padding-right: 31px;
     padding-left: 28px;
+    /* min-width: 250px; */
+    /* max-width: 100%; */
   }
 
   #a_animal i {
@@ -1531,7 +1533,7 @@ footer ul li {
   .card-2 {
     /* border: 2px solid black; */
     width: 90% !important;
-
+    /* min-width: 360px; */
     /* max-width: 100%; */
     padding-top: 15px;
     padding-bottom: 11px;
